@@ -1,12 +1,12 @@
 
-# 🏗️ BIM Element Library Management
+# BIM Element Library Management
 
 ![Build Status](https://github.com/YOUR_USERNAME/bim-element-library-management/workflows/Build%20and%20Push%20Docker%20Image/badge.svg)
 ![Docker Image](https://ghcr.io/YOUR_USERNAME/bim-element-library-management:latest)
 
 A modern web application for managing BIM (Building Information Modeling) element libraries with comprehensive plugin and category management capabilities.
 
-## ✨ Features
+## Features
 
 - 🎨 **Modern React Interface** - Built with React 18, TypeScript, and Tailwind CSS
 - 🧩 **Plugin Management** - Dynamic plugin loading from Markdown files
@@ -17,7 +17,7 @@ A modern web application for managing BIM (Building Information Modeling) elemen
 - 🚀 **GitHub Actions** - Automated builds and deployments
 - ⚡ **Vite Build System** - Fast development and optimized production builds
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1: Docker (Recommended)
 
@@ -52,7 +52,7 @@ cd bim-element-library-management
 docker-compose up -d
 ```
 
-## 🛠️ Development
+## Development
 
 ### Prerequisites
 
@@ -81,7 +81,7 @@ npm run dev
 - `npm run generate-content` - Generate data files from Markdown
 - `npm run deploy` - Deploy to production
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 The application includes a multi-stage Dockerfile optimized for production:
 
@@ -97,7 +97,7 @@ FROM nginx:alpine
 
 GitHub Actions automatically builds and pushes Docker images to GitHub Container Registry on every push to main branch.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── src/
@@ -120,7 +120,7 @@ GitHub Actions automatically builds and pushes Docker images to GitHub Container
 └── nginx.conf            # Nginx configuration
 ```
 
-## 🎨 Customization
+## Customization
 
 ### Adding New Plugins
 
@@ -157,7 +157,7 @@ description: "Category description"
 Category details...
 ```
 
-## 🌐 Production Deployment
+## Production Deployment
 
 ### On Ubuntu Server
 
@@ -185,7 +185,7 @@ sudo certbot --nginx -d yourdomain.com
 # Configure nginx proxy to Docker container
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/amazing-feature`
@@ -193,17 +193,17 @@ sudo certbot --nginx -d yourdomain.com
 4. Push to branch: `git push origin feature/amazing-feature`
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🛟 Support
+## Support
 
 - 📧 Email: your-email@example.com
 - 🐛 Issues: [GitHub Issues](https://github.com/YOUR_USERNAME/bim-element-library-management/issues)
 - 📖 Documentation: [Wiki](https://github.com/YOUR_USERNAME/bim-element-library-management/wiki)
 
-## 🏗️ Built With
+## Built With
 
 - [React](https://reactjs.org/) - UI Library
 - [TypeScript](https://www.typescriptlang.org/) - Language
