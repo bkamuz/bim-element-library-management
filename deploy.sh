@@ -46,17 +46,38 @@ if docker images --format 'table {{.Repository}}:{{.Tag}}' | grep -q "^${IMAGE_N
     docker rmi $IMAGE_NAME || true
 fi
 
-# Pull latest image
+# Try to pull latest image from registry; if that fails fall back to building locally
 echo "⬇️ Pulling latest image from GitHub Container Registry..."
-docker pull $IMAGE_NAME
+if docker pull $IMAGE_NAME; then
+    echo "✅ Pulled image: $IMAGE_NAME"
+    RUNTIME_IMAGE="$IMAGE_NAME"
+else
+    echo "⚠️ Failed to pull $IMAGE_NAME. Will attempt to build image locally from the repository."
+
+    # Ensure repo is present locally in home directory
+    WORKDIR="$HOME/bim-element-library-management"
+    if [ -d "$WORKDIR/.git" ]; then
+        echo "🔄 Updating existing repository at $WORKDIR"
+        git -C "$WORKDIR" fetch --all --prune
+        git -C "$WORKDIR" reset --hard origin/main || git -C "$WORKDIR" pull
+    else
+        echo "📥 Cloning repository into $WORKDIR"
+        git clone https://github.com/${GITHUB_USER}/${REPO_NAME}.git "$WORKDIR"
+    fi
+
+    # Build Docker image locally and tag as local image
+    echo "⚙️ Building Docker image locally..."
+    docker build -t ${CONTAINER_NAME}:local "$WORKDIR"
+    RUNTIME_IMAGE="${CONTAINER_NAME}:local"
+fi
 
 # Run new container
-echo "🐳 Starting new container..."
+echo "🐳 Starting new container using image: $RUNTIME_IMAGE"
 docker run -d \
     --name $CONTAINER_NAME \
     --restart unless-stopped \
     -p $PORT:80 \
-    $IMAGE_NAME
+    $RUNTIME_IMAGE
 
 # Wait a moment for container to start
 sleep 5
