@@ -1,8 +1,8 @@
 
 # BIM Element Library Management
 
-![Build Status](https://github.com/YOUR_USERNAME/bim-element-library-management/workflows/Build%20and%20Push%20Docker%20Image/badge.svg)
-![Docker Image](https://ghcr.io/YOUR_USERNAME/bim-element-library-management:latest)
+![Build Status](https://github.com/bkamuz/bim-element-library-management/workflows/Build%20and%20Push%20Docker%20Image/badge.svg)
+![Docker Image](https://ghcr.io/bkamuz/bim-element-library-management:latest)
 
 A modern web application for managing BIM (Building Information Modeling) element libraries with comprehensive plugin and category management capabilities.
 
@@ -30,7 +30,7 @@ docker run -d --name bim-library -p 80:80 --restart unless-stopped ghcr.io/YOUR_
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/bim-element-library-management.git
+git clone https://github.com/bkamuz/bim-element-library-management.git
 cd bim-element-library-management
 
 # Install dependencies
@@ -47,7 +47,7 @@ npm run dev
 
 ```bash
 # Clone and run with docker-compose
-git clone https://github.com/YOUR_USERNAME/bim-element-library-management.git
+git clone https://github.com/bkamuz/bim-element-library-management.git
 cd bim-element-library-management
 docker-compose up -d
 ```
@@ -197,12 +197,6 @@ sudo certbot --nginx -d yourdomain.com
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Support
-
-- 📧 Email: your-email@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/YOUR_USERNAME/bim-element-library-management/issues)
-- 📖 Documentation: [Wiki](https://github.com/YOUR_USERNAME/bim-element-library-management/wiki)
-
 ## Built With
 
 - [React](https://reactjs.org/) - UI Library
@@ -212,7 +206,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Radix UI](https://www.radix-ui.com/) - UI Components
 - [Docker](https://www.docker.com/) - Containerization
 - [nginx](https://nginx.org/) - Web Server
-
----
-
-**Original Design**: [Figma Project](https://www.figma.com/design/bQi0cPo0c1KC1wLjNmdesN/BIM-Element-Library-Management)  
