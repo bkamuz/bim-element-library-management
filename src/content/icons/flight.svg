@@ -1,0 +1,51 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.000000" height="48.000000" fill="none">
+	<mask id="mask_39" width="48.000015" height="20.786037" x="0.000000" y="27.214233" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<path id="Форма 19" d="M0 37.6072L31.3044 27.2142L48 35.5286L48 37.6073L16.6956 48.0003L0 39.6859L0 37.6072Z" fill="rgb(134,152,166)" fill-rule="evenodd" />
+		</g>
+	</mask>
+	<defs>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+		<clipPath id="clipPath_29">
+			<rect width="48.000000" height="20.785891" x="0.000000" y="27.214111" fill="rgb(255,255,255)" />
+		</clipPath>
+		<linearGradient id="paint_linear_8" x1="24" x2="24" y1="0" y2="38" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(33,63,215)" offset="0.169999838" stop-opacity="1" />
+			<stop stop-color="rgb(33,63,215)" offset="1" stop-opacity="0" />
+		</linearGradient>
+		<radialGradient id="paint_radial_6" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-12.7808,-17.3405,17.755,-13.0863,25,18.5)">
+			<stop stop-color="rgb(214,214,214)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(235,234,234)" offset="0.515834987" stop-opacity="1" />
+			<stop stop-color="rgb(255,255,255)" offset="0.723458588" stop-opacity="0.184694231" />
+			<stop stop-color="rgb(0,28,170)" offset="0.866384447" stop-opacity="0.339999974" />
+			<stop stop-color="rgb(0,28,170)" offset="1" stop-opacity="1" />
+		</radialGradient>
+	</defs>
+	<mask id="mask_38" width="48.000000" height="48.000000" x="0.000000" y="0.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<g id="clip0_1186_4800">
+				<rect id="rect" width="48.000000" height="48.000000" x="0.000000" y="0.000000" fill="rgb(0,0,0)" />
+			</g>
+		</g>
+	</mask>
+	<rect id="Полёт" width="48.000000" height="48.000000" x="0.000000" y="0.000000" />
+	<g id="mask" mask="url(#mask_38)" />
+	<g id="Сочетание 7">
+		<g id="Площадка" customFrame="url(#clipPath_29)" mask="url(#mask_39)">
+			<rect id="Площадка" width="48.000000" height="20.785891" x="0.000000" y="27.214111" />
+			<path id="Прямоугольник 1" d="M0 37.6071L31.3043 27.2141L48 35.5285L16.6957 45.9214L0 37.6071Z" fill="rgb(171,184,194)" fill-rule="evenodd" />
+			<path id="Форма 8" d="M16.6957 45.9215L16.6957 48.0001L48 37.6072L48 35.5286L16.6957 45.9215Z" fill="rgb(90.8075,108.872,124.085)" fill-rule="evenodd" />
+			<path id="Форма 11" d="M0 0L32.9846 0" stroke="rgb(198,211,221)" stroke-linecap="round" stroke-width="0.100000001" transform="matrix(0.949063,-0.315085,0.315085,0.949063,16.6957,45.9214)" />
+			<path id="Форма 9" d="M0 37.6071L0 39.6856L16.6957 48L16.6957 45.9214L0 37.6071Z" fill="rgb(134,152,166)" fill-rule="evenodd" />
+			<path id="Форма 10" d="M0 0L18.6514 0" stroke="rgb(197.76,210.81,220.848)" stroke-linecap="round" stroke-width="0.100000001" transform="matrix(0.895145,0.445776,-0.445776,0.895145,0,37.6071)" />
+		</g>
+	</g>
+	<circle id="Эллипс 7" cx="24" cy="19" r="19" fill="url(#paint_linear_8)" />
+	<path id="Форма 42" d="M15.0001 3.99993C-19.4999 -4.00003 27 22 10.0001 31.9999C-6.99969 41.9998 42.9999 39.4997 26.5 22.9998C10.0001 6.49997 60.0002 -4.00003 40.0002 10.9999C20.0001 25.9999 49.5001 11.9999 15.0001 3.99993Z" stroke="url(#paint_radial_6)" stroke-width="3" />
+	<circle id="Эллипс 8" cx="40" cy="11" r="2" fill="rgb(235,234,234)" />
+	<circle id="Эллипс 9" cx="15" cy="4" r="2" fill="rgb(235,234,234)" />
+	<circle id="Эллипс 10" cx="10" cy="32" r="2" fill="rgb(235,234,234)" />
+	<circle id="Эллипс 11" cx="29" cy="26" r="2" fill="rgb(235,234,234)" />
+</svg>
