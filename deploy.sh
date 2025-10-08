@@ -10,7 +10,7 @@ GITHUB_USER="bkamuz"
 REPO_NAME="bim-element-library-management"
 CONTAINER_NAME="bim-library"
 IMAGE_NAME="ghcr.io/${GITHUB_USER}/${REPO_NAME}:latest"
-PORT="80"
+PORT="8080"
 
 echo "🚀 Starting deployment of BIM Element Library..."
 
